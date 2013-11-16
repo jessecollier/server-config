@@ -40,10 +40,10 @@ logger "[$$] [$0] git installed"
 # Set up chef
 logger "[$$] [$0] setting up chef"
 mkdir /srv
-cd /srv && git clone https://github.com/jessecollier/configs.git
-cd /srv/configs && bundle install
-cd /srv/configs && berks install --path chef/cookbooks
-chef-solo -c /srv/configs/chef/config.rb
+cd /srv && git clone https://github.com/jessecollier/server-config.git
+cd /srv/server-config && bundle install
+cd /srv/server-config && berks install --path chef/cookbooks
+chef-solo -c /srv/server-config/chef/config.rb
 logger "[$$] [$0] chef complete"
 
 logger "[$$] [$0] removing bootstrap"
