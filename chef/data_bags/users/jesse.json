@@ -1,0 +1,10 @@
+{
+    "id"       : "jesse",
+    "username" : "jesse",
+    "groups"   : "jesse,sudo",
+    "comment"  : "Jesse Collier",
+    "shell"    : "/bin/bash",
+    "ssh_key"  : "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCqG/cSSJqr3EJjk2lWX7HNYaUfvi9rWizkBaadulwYzQ4BvCXFje10KS5rhAkvIuKhEegY5Uhe0QjxepoJySkuDK642v5Qp/G2W0+zb7hPEHnMeYejdsZKnyEheqbOQc8PO9tjfb+Z9/FL+3GFlR+e/IPx/jowaC5uyuvuSZdf0vH2k4d0WPw+dcJ2Ak9PyFPFdUh81MyHmU6aXwLsM90UC2IuXAWZyWz9oGXX16fQDnin57Mf5BqdNaY5Ue56BivlDD4TJbiecPcW2XX5xS6RloStBfpyLzLbrFY0LYENP+d4XyLjW/k1wl8vvpSjH54H+pvwBgVzYola594lesYz1SmA0BimgQ9vo8nK2djqITMvZq4vClQXAxvNdioqNCHhH7gAKOO9l0CUvxVULwjKNjfYZtH7YlxayTr+MIafW/eV3938+5eNY+L8Edh/qEk8uB1Sr059wJteLkSXVrQdN0hakcJHwTBE3QWIlLLz4A4uCR1EgRn03kSHgOUizvnuXCxDkq/nz0w4GcjXD8itbabz5Jug40GL5AbnyGVDl8gJI5smPtsSchLXcrXCFh9h9mEyFqzScSAzQIj0VoK0zyBYUXooch8geunH6/KG7qrqlyRXx+PZ5QUBWN9jmqLEB3hp06GrXAqoEPrwJD6jgxM1fE7o6/mc4eg8aoz1+w== jessecollier@gmail.com personal",
+    "gid"      : "1001",
+    "uid"      : "1001"
+}
