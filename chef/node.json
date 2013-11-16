@@ -1,6 +1,6 @@
 {
     "run_list" : [ 
-        "receipt[chef-solo-search]",
+        "recipe[chef-solo-search]",
         "recipe[users::sysadmins]" 
     ]
 }
