@@ -6,7 +6,7 @@ Berksfile.lock
 \#*#
 .*.sw[a-z]
 *.un~
-/cookbooks
+chef/cookbooks
 
 # Bundler
 Gemfile.lock
@@ -15,3 +15,5 @@ bin/*
 
 Thorfile
 Vagrantfile
+
+
