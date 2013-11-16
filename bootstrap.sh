@@ -17,13 +17,13 @@ logger "[$$] [$0] bootstrapping. Hang on..."
 # Upgrade system to latest
 logger "[$$] [$0] upgrade system"
 apt-get update 
-apt-get upgrade
+apt-get upgrade -y
 logger "[$$] [$0] upgrade system complete"
 
 
 # Install ruby+chef
 logger "[$$] [$0] install ruby+chef"
-apt-get install -y ruby1.9.3 build-essential wget rubygems
+apt-get install -y ruby1.9.3 build-essential wget
 gem update --no-rdoc --no-ri
 logger "[$$] [$0] ruby+chef installed"
 
